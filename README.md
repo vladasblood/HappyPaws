@@ -15,11 +15,15 @@ The application should maintain records of dogs for adoption by the city veterin
 # How-To-Run
 
 ## Backend
+
+*Change* application.properties from src/main/resources
 ```
 mvn spring-boot:run
 ```
 
 ## Frontend
+
+*Change* 
 ```
 Run the APP module in Android Studio
 ```
