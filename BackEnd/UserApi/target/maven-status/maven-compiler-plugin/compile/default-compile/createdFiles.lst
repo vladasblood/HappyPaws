@@ -1,0 +1,9 @@
+com\rijai\adoptionBackend\UserApiApplication.class
+com\rijai\adoptionBackend\services\UserService.class
+com\rijai\adoptionBackend\model\User.class
+com\rijai\adoptionBackend\repository\DogRepository.class
+com\rijai\adoptionBackend\repository\UserRepository.class
+com\rijai\adoptionBackend\model\Dog.class
+com\rijai\adoptionBackend\services\DogService.class
+com\rijai\adoptionBackend\controller\DogController.class
+com\rijai\adoptionBackend\controller\UserController.class
