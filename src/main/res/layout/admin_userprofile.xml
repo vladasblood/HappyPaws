@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/userprofiletxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:layout_marginBottom="64dp"
+        android:fontFamily="@font/exo_2"
+        android:text="Account Details"
+        android:textAlignment="center"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_admin_toadmin"
+        android:layout_width="227dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginBottom="6dp"
+        android:backgroundTint="@color/blue"
+        android:fontFamily="@font/sora_light"
+        android:text="Make Admin"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_admin_touser"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_admin_touser"
+        android:layout_width="227dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/green"
+        android:fontFamily="@font/sora_light"
+        android:text="Make User"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_admin_userprofiletouserlist"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_admin_userprofiletouserlist"
+        android:layout_width="149dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginBottom="102dp"
+        android:backgroundTint="@color/black"
+        android:fontFamily="@font/sora_light"
+        android:text="Return"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/out_admin_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/sora_light"
+        android:text="Username"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+    <TextView
+        android:id="@+id/out_admin_userrole"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="21dp"
+        android:fontFamily="@font/sora_light"
+        android:text="Admin/User"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/out_admin_userrole" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="64dp"
+        android:fontFamily="@font/exo_2"
+        android:text="Name"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userprofiletxt" />
+
+    <TextView
+        android:id="@+id/out_admin_userrole"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="33dp"
+        android:fontFamily="@font/exo_2"
+        android:text="Role"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/out_admin_username" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

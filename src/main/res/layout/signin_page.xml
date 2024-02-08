@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/peach">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="313dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="40dp"
+        android:fontFamily="@font/exo_2"
+        android:text="Create Account"
+        android:textAlignment="center"
+        android:textColor="#F6F3F3"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+    <EditText
+        android:id="@+id/in_createusername"
+        android:layout_width="390dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="@color/black"
+        android:ems="10"
+        android:fontFamily="@font/sora_light"
+        android:hint="Create Username"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/in_createpassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/in_createpassword"
+        android:layout_width="392dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="40dp"
+        android:ems="10"
+        android:fontFamily="@font/sora_light"
+        android:hint="Create Password"
+        android:inputType="textPassword"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_createaccount"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_returnlogin"
+        android:layout_width="228dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginEnd="77dp"
+        android:layout_marginBottom="110dp"
+        android:backgroundTint="@color/black"
+        android:fontFamily="@font/sora_light"
+        android:text="Return"
+        android:textSize="16sp"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_createaccount"
+        android:layout_width="228dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginEnd="77dp"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="@color/blue"
+        android:fontFamily="@font/sora_light"
+        android:text="Create Account"
+        android:textSize="16sp"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_returnlogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="212dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="63dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/create_account_dog" />
+</androidx.constraintlayout.widget.ConstraintLayout>
