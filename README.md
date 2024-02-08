@@ -15,16 +15,13 @@ The application should maintain records of dogs for adoption by the city veterin
 # How-To-Run
 
 ## Backend
-
 **Change** MySQL Password of application.properties from `src/main/resources`
 ```
 mvn spring-boot:run
 ```
 
-**Change** Local IPv4 Address of RetrofitService java class from `src/main/java/com/example/it193_group8_finalproject/retrofit`
 ## Frontend
-
-*Change* 
+**Change** Local IPv4 Address of RetrofitService java class from `src/main/java/com/example/it193_group8_finalproject/retrofit`
 ```
 Run the APP module in Android Studio
 ```
