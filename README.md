@@ -1,4 +1,4 @@
-# IT193 Project: HappyPaws
+# IT193 Group Project: HappyPaws
 ## Dog Adoption Service
 ### Unofficial Partnership with The Philippine Welfare Society
 
@@ -26,3 +26,7 @@ mvn spring-boot:run
 Run the APP module in Android Studio
 ```
 
+---
+# Group Members
+1. Eleccion
+2. Pajarillo
